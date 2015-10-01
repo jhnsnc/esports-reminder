@@ -1,0 +1,12 @@
+{
+	"timezone": "UTC",
+	"dailyEmailTime": "0 13 * * *",
+	"lol-esports-api": {
+		"baseUrl": "http://na.lolesports.com/api",
+		"endpoints": {
+			"programmingWeek": "/programmingWeek/{date}/{offset}.json",
+			"programmingBlock": "/programming/{id}.json",
+			"matchDetails": "/match/{matchId}.json"
+		}
+	}
+}

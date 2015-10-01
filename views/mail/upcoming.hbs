@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>{{title}}</title>
+  <link rel='stylesheet' href='/assets/css/style.css' />
+</head>
+<body>
+  <h1>Matches for today and tomorrow</h1>
+  <p>Sent at {{timeSent}}</p>
+  
+  {{#each matches}}
+    <h2>{{name}}</h2>
+    <img src="{{contestants.blue.logoURL}}" alt="{{contestants.blue.name}}" />
+    <h4>{{contestants.blue.acronym}}</h4>
+    <img src="{{contestants.red.logoURL}}" alt="{{contestants.red.name}}" />
+    <h4>{{contestants.red.acronym}}</h4>
+    <h3>Streams:</h3>
+    <p>{{liveStreams}}</p>
+  {{/each}}
+</body>
+</html>

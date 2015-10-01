@@ -1,0 +1,7 @@
+node_modules
+junk
+
+public
+
+config/config-local.json
+config/local.json
